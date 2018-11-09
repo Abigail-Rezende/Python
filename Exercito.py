@@ -8,9 +8,9 @@ medir mais ou igual a 1.70 metros.
 '''
 
 print('----------Ingresso no Exercito----------')
-idade = input('Digite sua idade: ')
-peso = input('Digite seu peso: ')
-altura = input('Digite sua altura: ')
+idade = int(input('Digite sua idade: '))
+peso = int(input('Digite seu peso: '))
+altura = int(input('Digite sua altura: '))
 
 if idade >= '18' and peso >= '' and altura >= '1.7':
     print('Você está apto a ingressar no Exercito')
