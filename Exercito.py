@@ -12,7 +12,7 @@ idade = int(input('Digite sua idade: '))
 peso = int(input('Digite seu peso: '))
 altura = int(input('Digite sua altura: '))
 
-if idade >= '18' and peso >= '' and altura >= '1.7':
+if idade >= 18 and peso >= 60 and altura >= 1.7:
     print('Você está apto a ingressar no Exercito')
 else:
     print('Você não está apto a ingressar no Exercito')
